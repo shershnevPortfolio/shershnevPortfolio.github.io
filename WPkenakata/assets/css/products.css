@@ -1,0 +1,51 @@
+.product_page {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.product_title h1 {
+
+	color: #222222;
+	font-size: 28px;
+	margin-bottom: 24px;
+
+}
+
+
+
+
+
+.in_product_price {
+	justify-content: flex-start;
+
+
+}
+
+
+.main_in_product {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper_in_prod {
+	margin: auto;
+}
+
+
+
+.in_product_title {
+	padding-left: 5%;
+	padding-top: 0px;
+}
+
+.in_product_cost {
+	font-size: 25px;
+}
+
+
+.in_product_title p {
+	font-size: 20px;
+	margin-bottom: 10px;
+}

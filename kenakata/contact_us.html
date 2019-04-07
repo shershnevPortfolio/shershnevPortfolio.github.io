@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>KENAKATA</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="media_queries.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+
+<body>
+            <header class="top_header">
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="index.html">KENAKATA
+                    </a>
+                </div>
+                <nav class="nav__header__item">
+                    <ul class="nav__item">
+                        <li>
+                            <a href="items.html">Colection</a>
+                        </li>
+                        <li>
+                            <a href="#">Men</a>
+                        </li>
+                        <li>
+                            <a href="#">Women</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="get_right">
+                            <a href="#">Faq</a>
+                        </li>
+                    </ul>
+                    <div class="cart">
+                        <a id="open_cart" href="cart.html">
+                            <i class="fas fa-shopping-bag"></i>
+                            <div id="count_cart" class="cart_items_counter">0
+                        </div>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+</div>
+
+<h1 class="contact_header">Contact Us</h1>
+<div class="wrapper" style="margin: auto;" >
+<form id="contact_form" style="width: 100%; display: flex; justify-content: space-between; flex-wrap: wrap;">
+	
+		<input class="input contact_input" type="email" name="email" placeholder="Your email address">
+		<input class="input contact_input" type="text" name="name" placeholder="Your name">
+	
+	
+		<input class="input contact_input" type="tel" name="tel"  maxlength="10" minlength="10" placeholder="Your phone number">
+        <datalist id="choose_your_city">  
+                <option>Kiev </option>
+                <option>Moskow </option>
+                <option>New York </option>
+                <option>Amsterdam </option>
+        </datalist>
+		<input class="input contact_input" type="text" name="city" list="choose_your_city" placeholder="Your City">
+	
+		
+		<textarea   name="explain" class="input last_input" ></textarea>
+        <input type="submit" value="Send" class="shop__button submit_button"  name="submit">
+	
+		
+
+
+<script src="storage.js"></script>
+</form>
+</div>
+</body>
+</html>

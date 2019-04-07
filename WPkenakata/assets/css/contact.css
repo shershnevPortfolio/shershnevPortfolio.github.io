@@ -1,0 +1,85 @@
+
+nf-fields-wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+
+
+
+#nf-form-3-cont {
+	width: 100%;
+}
+
+.nf-form-wrap {
+	width: 100%;
+}
+
+.nf-form-layout {
+	width: 100%;
+}
+
+nf-field {
+ 
+ display: inline-block;
+ 
+ 
+}
+
+.half {
+	width: var(--wrapperWidthHalf);
+	height: 37.5px;
+	
+}
+
+
+.full {
+	width: var(--wrapperWidth);
+}
+
+.nf-form-layout form {
+	width: 100%;
+}
+
+.nf-form-fields-required {
+	visibility: hidden;
+}
+
+.full_width {
+	width: 100% !important;
+	border: 0px;
+}
+
+.nf-input-limit {
+	visibility: hidden;
+}
+
+.nf-field {
+	height: 100%;
+
+}
+
+.field-wrap {
+	height: 100%;
+}
+
+
+.field-element {
+	height: 100%;
+}
+
+
+.contact_input {
+	height: 100% !important;
+}
+
+
+.contact_input::placeholder {
+	padding-left: 15px;
+}
+
+.nf-field-element {
+	height: 100%;
+}

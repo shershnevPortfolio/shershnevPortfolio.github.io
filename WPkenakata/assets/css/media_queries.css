@@ -1,0 +1,50 @@
+
+
+
+
+@media screen and (max-width:1400px) {
+	.wrapper {
+		width: 90%;
+	}
+} 
+
+
+@media screen and (max-width:1100px) {
+	.column_products {
+		flex-direction: column;
+
+	}
+
+
+	.show_products {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.wrapper {
+		width: 80%;
+	}
+	.fetured_column {
+		flex-direction: row;
+	}
+	
+	.post_page_post {
+		width: 100%;
+		justify-content: center;
+	
+}
+
+
+} 	
+
+
+@media screen and (max-width:700px) {
+	.wrapper {
+		width: 90%;
+
+	}
+
+		
+
+
+}

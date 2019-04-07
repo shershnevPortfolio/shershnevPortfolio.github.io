@@ -1,0 +1,57 @@
+.remove_button {
+	background-color: grey;
+}
+
+.nf-form-wrap{
+	width: 445px;
+}
+.nf-form-content nf-fields-wrap  {
+	width: 100%;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+
+}
+
+
+form div {
+	justify-content: center;
+}
+
+
+#nf-field-5-container {
+	margin: 0px;
+}
+
+#nf-field-7-container {
+	margin: 0px;
+}
+
+.nf-form-layout {
+	display: flex;
+	justify-content: space-between;
+}
+
+#nf-field-5 {
+	height: 37.5px;
+	width: 252px;
+}
+
+#nf-field-7 {
+	height: 2.5em;
+	width: 9em;
+}
+
+.subscribe_button {
+	background-color: #f72464;
+	font-size: 15px;
+	border:0px;
+	color: white;
+	border-radius: .2em;
+
+}
+
+.nf-form-fields-required {
+	display: none;
+}
