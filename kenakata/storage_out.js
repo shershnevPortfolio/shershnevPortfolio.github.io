@@ -58,6 +58,7 @@ for(var i=0, b=0 ,len=localStorage.length; i<len; i++) {
         $('#' + id + '_cost').text(a * b );
         var c = document.getElementById('total_summ');
         var g = Number(c.innerHTML) - Number(k) + a * b ;
+        alert(k);
         c.innerHTML = g;
         
 
