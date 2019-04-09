@@ -564,6 +564,10 @@ input::placeholder {
 }
 
 
+.price_x_inputValue::after {
+	content: '$';
+}
+
 .under_posts__container h2:after {
 	content: 'editors’ picks'
 
