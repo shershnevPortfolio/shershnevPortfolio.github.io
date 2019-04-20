@@ -115,7 +115,7 @@ body {
 	left: 10%; 
 	position: absolute; 
 	left: 0;
-	background-image: url('Path_81.png'); 
+ 
 	background-repeat: no-repeat;
 	background-position:  center; 
 	top: 50px; 
@@ -140,6 +140,14 @@ body {
 	font-weight: 500;
 	text-transform: uppercase;
 	text-align: center;		
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.under_welcome {
+	position: absolute;
 }
 
 .welcome_section {
@@ -317,6 +325,15 @@ body {
 	flex-direction: column;
 	position: relative;
 
+}
+
+.main_info_container_decoration {
+	 height: 100%;  
+	 position: absolute; 
+	 left: -20%; 
+	 top: 0;  
+	 background-repeat: no-repeat; 
+	 background-position: left center; 
 }
 
 .main_info_section {
@@ -549,6 +566,13 @@ body {
 	align-items: center;
 }
 
+.decoration_our_partners {
+	z-index: 0; 
+	position: absolute; 
+	right: -15%; 
+	top: -50%;
+}
+
 .our_partners_section {
 	width: 100%;
 	min-height: 330px;
@@ -726,6 +750,13 @@ footer  {
 	align-items: center;
 	justify-content: center;
 	position: relative;
+}
+
+
+.footer_decoration {
+	position: absolute; 
+	right: -10%; 
+	top: -40%;
 }
 
 .mark_map {
