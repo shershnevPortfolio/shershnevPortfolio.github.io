@@ -140,15 +140,9 @@ body {
 	font-weight: 500;
 	text-transform: uppercase;
 	text-align: center;		
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
-.under_welcome {
-	position: absolute;
-}
+
 
 .welcome_section {
 	padding-top: 50px; 
@@ -156,9 +150,10 @@ body {
 	height: 95vh; 
 	z-index: 2; 
 	display: flex; 
-	justify-content: space-around; 
+	justify-content: space-around;
 	align-items: center; 
 	flex-direction: column;
+	position: relative;
 }
 
 .buttons_container {
