@@ -12,7 +12,7 @@ function getTheBiggestHeight() {
 	}
 
 	var sortedArrayHeight = arrayHeight.sort(sortArrayHeight);
-	alert(sortedArrayHeight);
+
 	
 	for(var i = 0; imgContainers.length > i; i++) {
 		imgContainers[i].style.setProperty('height',  sortedArrayHeight[0]  + 'px');
