@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'KievitProRegular';
+	src: url('../fonts/KievitPro-Regular.eot');
+	src: url('../fonts/KievitPro-Regular.eot?iefix') format('eot'),
+	url('../fonts/KievitPro-Regular.woff') format('woff'),
+	url('../fonts/KievitPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'KievitProBold';
+	src: url('../fonts/KievitPro-Bold.eot');
+	src: url('../fonts/KievitPro-Bold.eot?iefix') format('eot'),
+	url('../fonts/KievitPro-Bold.woff') format('woff'),
+	url('../fonts/KievitPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>TravelAsk</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/scrollbar.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+        <script src="js/slider.js"></script>
+    </head>
+    
+    <body>
+        <div  class="popup__bg popup__element semantic" id="popup__bg"> </div>
+        <header class="header">
+            <div>
+                <img src="images/barselona_spain.jpg" alt="Барселона Испания">
+            </div>
+            <div class="header__text-inner">
+                <h1 class="heading">Барселона — обзор города
+            </h1>
+                <p class="header-text">Барселона с её золотистыми пляжами, архитектурными шедеврами Гауди, многочисленными фестивалями и гастрономическим разнообразием понравилась мне в первый же день пребывания и стала местом, в котором... 
+                </p>
+                <span class="header-text header-text__read_more">Читать дальше
+            </span>
+            </div>
+        </header>
+        <div id="reviews" class="reviews">
+            <div  id="reviews__images__popup" class="reviews__images__popup semantic popup__element">
+                <i class="fas fa-times close__popup" id="hide__popup" ></i> 
+                <i class="fas fa-angle-left switch__article__image" id="previous__reviews__image"></i>
+                <div>
+                    <img id="popUpImage" style="height: 500px; width: 500px;" src="images/reviews__article__image-1.svg" alt="">
+                </div>
+                <i class="fas fa-angle-right switch__article__image" id="next__reviews__image"></i>
+            </div>
+            <span class="non_semantic__heading">Отзывы о Барселоне </span>
+            <div class="reviews__section-container">  
+            <section id="reviews__section"  class="reviews__section">
+                <h2 class="heading semantic">Отзывы о Барселоне</h2>
+                <article class="reviews__article">
+                    <div class="reviews__article_author">
+                        <div class="reviews__article_author-img">
+                            <img src="images/natalia_polyanskaya.png" alt="Natalia Polyanskaya">
+                        </div>
+                        <span>Наталия Полянская</span>
+                    </div>
+                    <h3 class="reviews__article-heading">
+                        <span>Барселона</span>
+                        — о городе:
+                    </h3>
+                    <div class="reviews__article-heading-text">
+                        Барселона - моя третья большая любовь,после Вены и Крита. 
+                    Это город,в который я возвращаюсь 
+                    с огромным удовольствием всем рекомендую хоть раз там побывать и осмотреть...
+                
+                    </div>
+                    <div id="review-1" class="reviews__article-images">
+                        <div id="review-1_child-1" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-1.svg" alt="">  
+                        </div>
+                        <div id="review-1_child-2" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-2.svg" alt="">
+                        </div>
+                        <div id="review-1_child-3" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                        <div id="review-1_child-4">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                    </div>
+                    <footer class="reviews__article-footer">
+                        <span>около 1 года назад</span>
+                        <span>9 комментариев</span>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00025 10.063L3.75025 8.688L5.06225 4.219C5.06225 4.219 4.84425 2.219 4.71925 1C7.03125 1 7.15625 3.969 7.15625 3.969L7.40625 6.063C7.40625 6.063 9.77025 5.421 10.6253 5.251C11.8753 5.001 12.6883 5.688 12.3753 7C13.0313 7.407 13.0003 8.563 12.4693 9.063C12.9383 9.594 12.8443 10.844 12.1883 11.313C12.3503 12.431 11.9693 12.688 11.6883 12.938C11.4063 13.188 9.93825 14.001 8.28125 14.001C6.62525 14.001 5.18725 13.657 5.18725 13.657L3.03125 15C3.03125 15 2.21925 14.469 1.59425 12.876C0.969252 11.282 1.00025 10.063 1.00025 10.063Z" stroke="#A0A0A0" stroke-linejoin="round"/>
+                            </svg>
+                            <span>9
+                        </span>
+                        </div>
+                    </footer>
+                </article>
+                
+                <article class="reviews__article">
+                    <div class="reviews__article_author">
+                        <div class="reviews__article_author-img">
+                            <img src="images/natalia_polyanskaya.png" alt="Natalia Polyanskaya">
+                        </div>
+                        <span>Elena Bulgakova</span>
+                    </div>
+                    <h3 class="reviews__article-heading">
+                        <span>Барселона</span>
+                        — о городе:
+                    </h3>
+                    <div class="reviews__article-heading-text">
+                        Плюсы города: весь город одни плюсы! Минусы города:не видела.
+                        В наш наш марафон по европе не вписалось 2 испанских города
+                        от усталости - решили остаток путешевствия провести в Барселоне...
+                
+                    </div>
+                    <div id="review-2" class="reviews__article-images">
+                        <div id="review-2_child-1" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-1.svg" alt="">  
+                        </div>
+                        <div id="review-2_child-2" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-2.svg" alt="">
+                        </div>
+                        <div id="review-2_child-3" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                        <div id="review-2_child-4">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                    </div>
+                    <footer class="reviews__article-footer">
+                        <span>около 1 года назад</span>
+                        <span>9 комментариев</span>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00025 10.063L3.75025 8.688L5.06225 4.219C5.06225 4.219 4.84425 2.219 4.71925 1C7.03125 1 7.15625 3.969 7.15625 3.969L7.40625 6.063C7.40625 6.063 9.77025 5.421 10.6253 5.251C11.8753 5.001 12.6883 5.688 12.3753 7C13.0313 7.407 13.0003 8.563 12.4693 9.063C12.9383 9.594 12.8443 10.844 12.1883 11.313C12.3503 12.431 11.9693 12.688 11.6883 12.938C11.4063 13.188 9.93825 14.001 8.28125 14.001C6.62525 14.001 5.18725 13.657 5.18725 13.657L3.03125 15C3.03125 15 2.21925 14.469 1.59425 12.876C0.969252 11.282 1.00025 10.063 1.00025 10.063Z" stroke="#A0A0A0" stroke-linejoin="round"/>
+                            </svg>
+                            <span>
+                        </span>
+                        </div>
+                    </footer>
+                </article>
+                <article class="reviews__article">
+                    <div class="reviews__article_author">
+                        <div class="reviews__article_author-img">
+                            <img src="images/natalia_polyanskaya.png" alt="Natalia Polyanskaya">
+                        </div>
+                        <span>Наталия Полянская</span>
+                    </div>
+                    <h3 class="reviews__article-heading">
+                        <span>Барселона</span>
+                        — о городе:
+                    </h3>
+                    <div class="reviews__article-heading-text">
+                        Барселона - моя третья большая любовь,после Вены и Крита. 
+                    Это город,в который я возвращаюсь 
+                    с огромным удовольствием всем рекомендую хоть раз там <br>побывать и осмотреть...
+                
+                    </div>
+                    <div id="review-3" class="reviews__article-images">
+                        <div id="review-3_child-1" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-1.svg" alt="">  
+                        </div>
+                        <div id="review-3_child-2" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-2.svg" alt="">
+                        </div>
+                        <div id="review-3_child-3" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                        <div id="review-3_child-4">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                    </div>
+                    <footer class="reviews__article-footer">
+                        <span>около 1 года назад</span>
+                        <span>9 комментариев</span>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00025 10.063L3.75025 8.688L5.06225 4.219C5.06225 4.219 4.84425 2.219 4.71925 1C7.03125 1 7.15625 3.969 7.15625 3.969L7.40625 6.063C7.40625 6.063 9.77025 5.421 10.6253 5.251C11.8753 5.001 12.6883 5.688 12.3753 7C13.0313 7.407 13.0003 8.563 12.4693 9.063C12.9383 9.594 12.8443 10.844 12.1883 11.313C12.3503 12.431 11.9693 12.688 11.6883 12.938C11.4063 13.188 9.93825 14.001 8.28125 14.001C6.62525 14.001 5.18725 13.657 5.18725 13.657L3.03125 15C3.03125 15 2.21925 14.469 1.59425 12.876C0.969252 11.282 1.00025 10.063 1.00025 10.063Z" stroke="#A0A0A0" stroke-linejoin="round"/>
+                            </svg>
+                            <span>9
+                        </span>
+                        </div>
+                    </footer>
+                </article>
+                <article class="reviews__article">
+                    <div class="reviews__article_author">
+                        <div class="reviews__article_author-img">
+                            <img src="images/natalia_polyanskaya.png" alt="Natalia Polyanskaya">
+                        </div>
+                        <span>Наталия Полянская</span>
+                    </div>
+                    <h3 class="reviews__article-heading">
+                        <span>Барселона</span>
+                        — о городе:
+                    </h3>
+                    <div class="reviews__article-heading-text">
+                        Барселона - моя третья большая любовь,после Вены и Крита. 
+                    Это город,в который я возвращаюсь 
+                    с огромным удовольствием всем рекомендую хоть раз там побывать и осмотреть...
+                
+                    </div>
+                    <div id="review-4" class="reviews__article-images">
+                        <div id="review-4_child-1" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-1.svg" alt="">  
+                        </div>
+                        <div id="review-4_child-2" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-2.svg" alt="">
+                        </div>
+                        <div id="review-4_child-3" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                        <div id="review-4_child-4">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                    </div>
+                    <footer class="reviews__article-footer">
+                        <span>около 1 года назад</span>
+                        <span>9 комментариев</span>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00025 10.063L3.75025 8.688L5.06225 4.219C5.06225 4.219 4.84425 2.219 4.71925 1C7.03125 1 7.15625 3.969 7.15625 3.969L7.40625 6.063C7.40625 6.063 9.77025 5.421 10.6253 5.251C11.8753 5.001 12.6883 5.688 12.3753 7C13.0313 7.407 13.0003 8.563 12.4693 9.063C12.9383 9.594 12.8443 10.844 12.1883 11.313C12.3503 12.431 11.9693 12.688 11.6883 12.938C11.4063 13.188 9.93825 14.001 8.28125 14.001C6.62525 14.001 5.18725 13.657 5.18725 13.657L3.03125 15C3.03125 15 2.21925 14.469 1.59425 12.876C0.969252 11.282 1.00025 10.063 1.00025 10.063Z" stroke="#A0A0A0" stroke-linejoin="round"/>
+                            </svg>
+                            <span>9
+                        </span>
+                        </div>
+                    </footer>
+                </article>
+                <article class="reviews__article">
+                    <div class="reviews__article_author">
+                        <div class="reviews__article_author-img">
+                            <img src="images/natalia_polyanskaya.png" alt="Natalia Polyanskaya">
+                        </div>
+                        <span>Elena Bulgakova</span>
+                    </div>
+                    <h3 class="reviews__article-heading">
+                        <span>Барселона</span>
+                        — о городе:
+                    </h3>
+                    <div class="reviews__article-heading-text">
+                        Плюсы города: весь город одни плюсы! Минусы города:не видела.
+                        В наш наш марафон по европе не вписалось 2 испанских города
+                        от усталости - решили остаток путешевствия провести в Барселоне...
+                
+                    </div>
+                    <div id="review-5" class="reviews__article-images">
+                        <div id="review-5_child-1" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-1.svg" alt="">  
+                        </div>
+                        <div id="review-5_child-2" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-2.svg" alt="">
+                        </div>
+                        <div id="review-5_child-3" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                        <div id="review-5_child-4">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                    </div>
+                    <footer class="reviews__article-footer">
+                        <span>около 1 года назад</span>
+                        <span>9 комментариев</span>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00025 10.063L3.75025 8.688L5.06225 4.219C5.06225 4.219 4.84425 2.219 4.71925 1C7.03125 1 7.15625 3.969 7.15625 3.969L7.40625 6.063C7.40625 6.063 9.77025 5.421 10.6253 5.251C11.8753 5.001 12.6883 5.688 12.3753 7C13.0313 7.407 13.0003 8.563 12.4693 9.063C12.9383 9.594 12.8443 10.844 12.1883 11.313C12.3503 12.431 11.9693 12.688 11.6883 12.938C11.4063 13.188 9.93825 14.001 8.28125 14.001C6.62525 14.001 5.18725 13.657 5.18725 13.657L3.03125 15C3.03125 15 2.21925 14.469 1.59425 12.876C0.969252 11.282 1.00025 10.063 1.00025 10.063Z" stroke="#A0A0A0" stroke-linejoin="round"/>
+                            </svg>
+                            <span>
+                        </span>
+                        </div>
+                    </footer>
+                </article>
+                <article class="reviews__article">
+                    <div class="reviews__article_author">
+                        <div class="reviews__article_author-img">
+                            <img src="images/natalia_polyanskaya.png" alt="Natalia Polyanskaya">
+                        </div>
+                        <span>Наталия Полянская</span>
+                    </div>
+                    <h3 class="reviews__article-heading">
+                        <span>Барселона</span>
+                        — о городе:
+                    </h3>
+                    <div class="reviews__article-heading-text">
+                        Барселона - моя третья большая любовь,после Вены и Крита. 
+                    Это город,в который я возвращаюсь 
+                    с огромным удовольствием всем рекомендую хоть раз там <br>побывать и осмотреть...
+                
+                    </div>
+                    <div id="review-6" class="reviews__article-images">
+                        <div id="review-6_child-1" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-1.svg" alt="">  
+                        </div>
+                        <div id="review-6_child-2" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-2.svg" alt="">
+                        </div>
+                        <div id="review-6_child-3" class="reviews__article-images__child">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                        <div id="review-6_child-4">
+                            <img src="images/reviews__article__image-3.svg" alt="">
+                        </div>
+                    </div>
+                    <footer class="reviews__article-footer">
+                        <span>около 1 года назад</span>
+                        <span>9 комментариев</span>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00025 10.063L3.75025 8.688L5.06225 4.219C5.06225 4.219 4.84425 2.219 4.71925 1C7.03125 1 7.15625 3.969 7.15625 3.969L7.40625 6.063C7.40625 6.063 9.77025 5.421 10.6253 5.251C11.8753 5.001 12.6883 5.688 12.3753 7C13.0313 7.407 13.0003 8.563 12.4693 9.063C12.9383 9.594 12.8443 10.844 12.1883 11.313C12.3503 12.431 11.9693 12.688 11.6883 12.938C11.4063 13.188 9.93825 14.001 8.28125 14.001C6.62525 14.001 5.18725 13.657 5.18725 13.657L3.03125 15C3.03125 15 2.21925 14.469 1.59425 12.876C0.969252 11.282 1.00025 10.063 1.00025 10.063Z" stroke="#A0A0A0" stroke-linejoin="round"/>
+                            </svg>
+                            <span>9
+                        </span>
+                        </div>
+                    </footer>
+                </article>
+            </section>
+        </div>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div class="all_reviews__button">
+                    <a href="#">Все отзывы</a>
+                </div>
+                <div id="carousel__switch-container" class="carousel__switch-container">
+                   <!--  <div class="carousel__switch active"></div>
+                    <div class="carousel__switch "></div>
+                    <div class="carousel__switch"></div>
+                    <div class="carousel__switch"></div>
+                    <div class="carousel__switch"></div>
+                    <div class="carousel__switch"></div>
+                    <div class="carousel__switch"></div> -->
+                </div>
+            </div>
+        </div>
+        <div class="chat_section-container">
+            <section class="chat_section" >
+                <h2 class="heading">Чат с пользователем</h2>
+                <div class="chat_section-inner">
+                    <div class="chat__window-interlocutor">
+                        <div class="chat__window-interlocutor-inner">   
+                        <div>
+                            <img src="images/chat_img.png" alt="" class="user__image">
+                        </div>
+                        <div class="chat__window-interlocutor__name-container">
+                            <span class="chat__window-interlocutor__name">Наталья Полянская</span>
+                            <span class="chat__window-interlocutor__position"><i class="fas fa-flag"></i>Гид по Баварии, фотограф</span>
+                        </div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star active__star"></i>
+                            <i class="fas fa-star active__star"></i>
+                            <i class="fas fa-star active__star"></i>
+                            <i class="fas fa-star active__star"></i>
+                            <i class="fas fa-star "></i>
+                        </div>
+                    </div>
+                    <div class=
+                    "chat__window"></div>
+                    <div class="chat__input" >
+                        <div style="">
+                            <img src="images/admin_img.png" alt="admin" class="admin__image">
+                        </div>
+                        <textarea class="chat__input_window" id="send__button-id_textarea" ></textarea>
+                        <a class="send__button" id="send__button-id" href="#">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="chat_section">
+                <h2 class="heading">Чат с администратором</h2>
+                <div class="chat_section-inner">
+                    <div class="chat__window-interlocutor chat__window__with__admin">
+                        <div class="chat__window-interlocutor-inner">   
+                        <div id="admin_img_container">
+                            <img src="images/admin_img.png" alt="admin" class="admin__img">
+                        </div>
+                        <div class="chat__window-interlocutor__name-container">
+                            <span class="chat__window-interlocutor__name">Администратор</span>
+                            <span class="chat__window-interlocutor__position"><i class="fas fa-flag"></i>TravelAsk</span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="chat__window"></div>
+                    <div class="chat__input" >
+                        <div style="">
+                            <img src="images/chat_img.png" alt="" class="user__image">
+                        </div>
+                        <textarea class="chat__input_window" id="send__button-id-2_textarea" ></textarea>
+                        <a class="send__button"  id="send__button-id-2" href="#">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="main.js"></script>
+        <script src="https://kit.fontawesome.com/53b2d31dd8.js" crossorigin="anonymous"></script>
+    </body>
+</html>

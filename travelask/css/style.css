@@ -1,0 +1,387 @@
+html {
+	background-color: #F9F7F2;
+	padding-top: 110px;
+	padding-bottom: 134px;
+	position: relative;
+}
+
+body {
+	max-width: 875px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.semantic {
+	position: absolute;
+	visibility: hidden;
+}
+
+.heading, .non_semantic__heading {
+	font-family: 'KievitProBold';
+	font-size: 29px;
+	line-height: 35px;
+	letter-spacing: 0.03em;
+	margin-bottom: 19px;
+}
+
+.header {
+	display: flex;
+	align-items: center;*
+	background-color: #FFFFFF;
+}
+
+.header__text-inner {
+	margin-left: 29px;
+}
+
+
+.header-text {
+	font-family: 'KievitProRegular';
+	font-size: 17px;
+	line-height: 25px;
+	max-width: 373px; 
+}
+
+.header-text__read_more {
+	border-bottom: 3px solid #FF4641;
+	font-family: 'KievitProRegular';
+}
+
+.reviews {
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	overflow-x:hidden;
+	padding:35px 12px;
+}
+
+.reviews__article {
+	background: #F9F7F2;
+	padding: 26px 9px 11px 19px;
+	min-height: 410px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 0px;
+	max-width: 280px;
+	min-width: 280px;
+    box-sizing: border-box
+}
+
+
+
+.reviews__article_author {
+	display: flex;
+	align-items: center;
+	font-family: KievitProBold;
+	font-size: 15px;
+	line-height: 17px;
+	margin-bottom: 29px;
+}
+
+.reviews__article_author-img {
+	margin-right: 10px;
+}
+
+.reviews__article-heading {
+	font-family: KievitProRegular;
+	font-size: 13px;
+	line-height: 17px;
+	letter-spacing: 0.464286px;
+	text-transform: uppercase;
+	color: #212121;
+	margin-bottom: 13px;
+	display: flex;	
+}
+
+.reviews__article-heading span {
+	color: #FC4F1E;
+
+}
+
+.reviews__article-heading-text {
+	max-width: 271px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 8px;
+}
+
+.reviews__article-footer {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 25px;
+	color: #9D9D9D;
+	display: flex;
+	justify-content: space-between;
+}
+
+.reviews__article-images {
+	display: flex;
+	margin-bottom: 26px;	
+}
+.reviews__article-images div {
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+	position: relative;
+	cursor: pointer;
+}
+
+.reviews__article-images__child {
+
+}
+
+.reviews__article-images div:last-child {
+	margin-right: 0px;
+
+}
+
+.reviews__article-images div:last-child:after {
+	content: "+7";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(16, 16, 16, 0.4);
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 25px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	top: 0;
+}
+
+
+
+.all_reviews__button {
+	border: 2px solid #FF4641;
+	border-radius: 2px;
+	padding: 10px 23px 13px 24px;
+	display: inline-block;
+}
+
+.all_reviews__button a{
+	font-family: KievitProRegular;
+	font-size: 15px;
+	line-height: 17px;
+	color: #212121;
+}
+
+.reviews__section-container {
+	overflow-x: hidden;
+	
+}
+
+.reviews__section {
+	margin-bottom: 32px;
+	display: flex;
+	margin-top: 21px;
+	position: relative;
+	transition: all ease 3s; 
+	left: 0;
+	justify-content: space-between
+
+}
+
+.carousel__switch-container {
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
+.carousel__switch {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	margin-right: 15px;
+	cursor: pointer;
+	background-color:#212121;	
+}
+
+
+.carousel__switch.active {
+	background-color:#FF4641;
+	width: 8px;
+	height: 8px;
+}
+
+.reviews .non_semantic__heading {
+	margin-bottom: 50px;
+}
+
+.reviews__images__popup {
+	position: fixed;
+	align-items: center;
+	width: 800px;
+	height: 800px;
+	z-index: 3;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	justify-content: space-between;
+}
+
+.reviews__images__popup i {
+	cursor: pointer;
+}
+
+.popup__bg {
+	position: absolute;
+	background-color: rgba(0,0,0,0.5); 
+	height: 100%; 
+	width: 100%; 
+	left: 0;
+	top: 0; 
+	z-index: 2;
+}	
+
+.switch__article__image {
+	font-size: 50px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.close__popup {
+	font-size: 30px;
+	position: absolute;
+	top: 100px;
+	right:0;
+	color: white;
+
+}
+
+.chat_section {
+	position: relative;
+}
+
+.chat_section-inner {
+	width: 415px;
+	height: 698px;
+	background-color: #FFFFFF;
+}
+
+.chat_section-container {
+	display: flex;
+	justify-content: space-between; 
+	margin-top: 50px;
+}
+
+.chat__window {
+	height: 500px; 
+	overflow-y: scroll;
+}
+
+
+.chat__input {
+	min-height: 100px; 
+	border-top:1px solid #ECECEC; 
+	background-color: white; 
+	display: flex; 
+	justify-content: space-around; 
+	align-items: center;
+}
+
+.chat__input_window {
+	width: 270px; 
+	min-height: 10px;
+}
+
+.chat__window-interlocutor {
+	height: 100px;
+	border-bottom:1px solid #ECECEC; 
+	display: flex; 
+	align-items: center;
+	justify-content: space-around;
+}
+.chat__window-interlocutor__name-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+
+}
+
+.chat__window-interlocutor__name {
+	font-family: KievitProBold ;
+	font-size: 18px;
+	line-height: 17px;
+}
+
+.chat__window-interlocutor__position {
+	font-family: KievitProRegular;
+	font-size: 13px;
+	line-height: 17px;
+	color: #FF4641;
+}
+
+.chat__window-interlocutor__position i {
+	margin-right: 4px;
+}
+
+.chat__window-interlocutor-inner {
+	display: flex;
+	align-items: center;
+} 
+
+.send__button i {
+	font-size: 22px;
+	color: red;
+}
+
+.fa-star {
+	color: #F1EBDB;
+
+}
+
+.active__star  {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F5A623), to(#F5C723));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+
+.chat__window__with__admin {
+	justify-content: flex-start;
+	padding-left: 15px;
+}
+.messageWindow {
+	padding: 12px 40px 25px 12px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	align-items: flex-start;
+	font-family: KievitProRegular;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.messageWindow img {
+	margin-right: 19px;
+}
+
+.userMessageWindow {
+	background-color: #F9F7F2;
+}
+
+.message__window__text {
+	max-width: 300px;
+	word-break:break-all;
+}
+
+.non__active__switch {
+	color: gray;
+	cursor: auto;
+}
