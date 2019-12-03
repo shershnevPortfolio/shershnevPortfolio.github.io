@@ -1,9 +1,0 @@
-@font-face{font-family:OpenSans;font-display:swap;src:url(/fonts/OpenSans-Regular-cfabf0c2.eot) format("eot"),url(/fonts/OpenSans-Regular-a7254975.woff2) format("woff2"),url(/fonts/OpenSans-Regular-9863aaac.woff) format("woff"),url(/fonts/OpenSans-Regular-a05c11bf.ttf) format("truetype"),url(/fonts/OpenSans-Regular-b5ee2ea2.svg#OpenSans) format("svg")}
-*,:after,:before{box-sizing:border-box}html{table-layout:fixed;min-height:100%;font-family:sans-serif;line-height:1.15;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0,0,0,0)}body,html{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;width:100%}body{-webkit-box-flex:1;-webkit-flex-grow:1;flex-grow:1;margin:0;font-family:OpenSans,sans-serif;font-size:14px;font-weight:400;line-height:1.5;color:#000;text-align:left;background-color:#fff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-font-smoothing:antialiased;text-rendering:optimizelegibility;-webkit-backface-visibility:hidden;backface-visibility:hidden}@-ms-viewport{width:device-width}body,h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0;padding:0;font-weight:400}article,aside,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}ol,ul{list-style:none}img{max-width:100%;height:auto}
-
-.wrapper{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-flex:1;-webkit-flex-grow:1;flex-grow:1;width:100%;height:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column}
-.content{-webkit-box-flex:1;-webkit-flex-grow:1;flex-grow:1;-webkit-flex-shrink:0;flex-shrink:0;-webkit-flex-basis:auto;flex-basis:auto}
-
-.footer{-webkit-box-flex:0;-webkit-flex-grow:0;flex-grow:0;-webkit-flex-shrink:0;flex-shrink:0;-webkit-flex-basis:auto;flex-basis:auto}
-.block-example{margin:0;padding:0;background-image:url(/images/square2-1bb5ab54.png)}
-
