@@ -1,0 +1,60 @@
+.footer
+  flex-grow: 0
+  flex-shrink: 0
+  flex-basis: auto
+  padding: 95px 0px
+  display: flex
+  justify-content: center
+
+.footer__inner
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  color: #000000
+  font-family: Montserrat
+  font-weight: 400
+  text-transform: uppercase
+  letter-spacing: 6.12px
+
+.footer__item
+  width: fit-content
+  font-size: 18px
+
+  @media screen and (max-width: 768px)
+    font-size: 14px
+
+  @media screen and (max-width: 425px)
+    font-size: 10px
+
+
+.footer__text
+  display: block
+  text-align: center
+
+.footer__text:not(:last-child)
+  margin-bottom: 15px
+
+  @media screen and (max-width: 768px)
+    margin-bottom: 5px
+
+
+.footer-navigation__inner
+  margin-bottom: 70px
+
+  @media screen and (max-width: 768px)
+   margin-bottom: 30px
+
+  @media screen and (max-width: 768px)
+    flex-direction: column
+    align-items: center
+
+
+.footer-navigation__item:not(:last-child)
+  margin-right: 50px
+
+  @media screen and (max-width: 768px)
+   margin-right: 0px
+
+.footer-navigation__link
+  color: #000000

@@ -1,0 +1,342 @@
+
+.section
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  padding: 65px 0px
+
+  @media screen and ( max-width: 768px )
+    padding: 40px 0px
+
+.section__article
+   max-width: 813px
+   height: fit-content
+
+.section__article-text-container
+  margin-bottom: 60px
+
+
+
+.section__article-img-container
+  @media screen and (max-width: 1500px)
+    width: 100%
+    max-width: 813px
+    margin-bottom: 50px
+
+@media screen and (max-width: 425px)
+    margin-bottom: 30px
+
+.section__article-img
+   @media screen and (max-width: 1500px)
+     width: 100%
+
+.section__inner
+  display: flex
+  flex-wrap: wrap
+
+.section__article-text
+  color: #5b5b5c
+  font-family: Montserrat
+  font-size: 22px
+  font-weight: 400
+  letter-spacing: 3.08px
+
+  @media screen and  (max-width: 425px)
+    font-size: 15px
+
+  &:not(:last-child)
+    margin-bottom: 54px
+
+    @media screen and  (max-width: 425px)
+       margin-bottom: 25px
+
+
+
+.section__article-title
+  color: #000000
+  font-family: Montserrat
+  font-size: 30px
+  font-weight: 500
+  text-transform: uppercase
+  letter-spacing: 4.2px
+  margin-bottom: 54px
+  @media screen and ( max-width: 425px)
+    font-size: 19px
+    margin-bottom: 30px
+
+  &::before
+    content: ''
+    margin-bottom: 30px
+    font-family: Montserrat
+    font-size: 22px
+    font-weight: 500
+    letter-spacing: 3.08px
+    color: #c4c4c4
+    display: block
+
+.about-section__article-title
+  &::before
+    content: 'About us'
+
+
+.about-section__inner
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-wrap: wrap
+
+  @media screen and (max-width: 1500px)
+    justify-content: center
+    flex-direction: column-reverse
+
+.section__title
+  font-family: Montserrat
+  font-size: 32px
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+  letter-spacing: 7.2px
+  color: #000000
+
+  &::after
+    content: ''
+    display: block
+    font-family: Montserrat
+    font-size: 28px
+    font-weight: 500
+    letter-spacing: 4.2px
+    color: #5b5b5c
+    margin-top: 35px
+
+    @media screen and (max-width: 768px)
+      font-size: 20px
+      margin-top: 25px
+
+    @media screen and (max-width: 425px)
+      font-size: 10px
+      margin-top: 15px
+
+.photos-section__title
+  margin-bottom: 100px
+  @media screen and (max-width: 768px)
+    margin-bottom: 50px
+
+  @media screen and (max-width: 425px)
+    font-size: 19px
+  &::after
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore '
+
+
+$galleryPhotosMargin: 30px
+
+
+
+
+.photos__container-row
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: $galleryPhotosMargin
+
+  @media screen and (max-width: 768px)
+    margin-bottom: $galleryPhotosMargin - 15
+    flex-direction: column
+
+.photos__container-item
+  max-width: 800px
+  @media screen and (max-width: 768px)
+   width: 100%
+
+
+
+
+
+
+.photos__container-item:not(:last-child)
+  margin-right: $galleryPhotosMargin
+
+  @media screen and (max-width: 768px)
+   margin-right: 0px
+   margin-bottom: 15px
+
+
+
+
+.slider-toggle__inner
+  display: flex
+  align-items: center
+
+.slider-toggle__link--left
+  margin-right: 20px
+
+.slider-toggle__link
+  margin-left: 20px
+
+.slider-toggle__number-container
+  font-family: Montserrat
+  font-size: 30px
+  font-weight: 500
+  letter-spacing: 4.2px
+  color: #000000
+
+.slider-toggle__link
+  display: flex
+  align-items: center
+А
+.slider-toggle__number--disabled
+  color: #c5c5c5
+
+.slider-toggle__slash
+  margin: 0 10px
+
+
+.adventure-section__title
+  &::before
+    content: 'Next Tour'
+
+
+.travel-section__article
+  @media screen and (max-width: 1500px)
+    margin-bottom: 70px
+
+.travel-section__article-title
+  font-family: Montserrat
+  font-size: 19px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 6px
+
+  &::before
+    display: none
+
+  @media screen and (max-width: 425px)
+   font-size: 14px
+
+.travel-section__inner
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
+  @media screen and (max-width: 1500px)
+    justify-content: center
+
+.view-photo-button
+  padding: 23px 36px
+  font-family: Montserrat
+  font-size: 16px
+  font-weight: 400
+  line-height: 41px
+  text-transform: uppercase
+  letter-spacing: 3.2px
+  background-color: #dddcdc
+  color: #000000
+
+  @media screen and ( max-width: 425px)
+    padding: 12px 18px
+
+
+.travel-section__img
+  margin-bottom: 70px
+
+  @media screen and (max-width: 425px)
+    margin-bottom: 30px
+
+
+.book-section
+  padding: 150px 0px
+  background-color: #f4f4f4
+
+
+.book-form
+  display: flex
+  padding: 0px 0px
+  justify-content: space-between
+
+  @media screen and ( max-width: 1500px )
+    flex-direction: column
+
+  @media screen and ( max-width: 425px )
+    align-items: flex-start
+
+
+
+
+.book-form__legend
+  color: #000000
+  font-family: Montserrat
+  font-size: 30px
+  font-weight: 500
+  line-height: 41px
+  text-transform: uppercase
+  letter-spacing: 4.2px
+
+  &::after
+    content: 'Mauris ultrices eros in cursus turpis'
+    display: block
+    line-height: 18px
+    color: #5b5b5c
+    font-family: Montserrat
+    font-size: 18px
+    font-weight: 400
+    letter-spacing: 2.52px
+
+    @media screen and ( max-width: 425px )
+      font-size: 9px
+
+
+  @media screen and ( max-width: 1500px )
+    margin-bottom: 20px
+
+  @media screen and ( max-width: 1200px )
+    text-align: center
+
+  @media screen and ( max-width: 425px )
+    font-size: 18px
+    text-align: left
+
+.book-form__input
+  width: 304px
+  height: 71px
+  border: 2px solid #7a7a7a
+  color: #3a4047
+  font-family: Montserrat
+  font-size: 22px
+  font-weight: 400
+  letter-spacing: 3.08px
+  padding-left: 30px
+
+
+.book-form__submit
+  width: 247px
+  background: #3a4047
+  border: 2px solid #7a7a7a
+  color: #ffffff
+  font-family: Montserrat
+  font-size: 22px
+  font-weight: 400
+  text-transform: uppercase
+  letter-spacing: 3.08px
+  padding-left: 0px
+
+  @media screen and ( max-width: 1200px )
+    width: 304px
+
+
+.inputs__inner
+  display: flex
+
+  @media screen and ( max-width: 1200px )
+    flex-direction: column
+    align-items: center
+
+.book-form__label
+  width: fit-content
+
+.book-form__label:not(:last-child)
+  margin-right: 60px
+
+  @media screen and ( max-width: 1200px )
+    margin-right: 0px
+    margin-bottom: 20px
+
