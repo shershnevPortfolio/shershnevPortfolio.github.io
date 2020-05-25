@@ -1,0 +1,17 @@
+{
+  "app.css": "/css/app.css?16fccf3b31d3a1924877",
+  "app.js": "/js/app.js?16fccf3b31d3a1924877",
+  "vendors.js": "/js/vendors.js?16fccf3b31d3a1924877",
+  "404.pug": "/404.html",
+  "fonts/fonts.sass": "/fonts/OpenSans-Regular-cfabf0c2.eot",
+  "images/Barselona.jpg": "/images/Barselona-668abb0e.jpg",
+  "images/apple-touch-icon.png": "/images/apple-touch-icon-2805113e.png",
+  "images/author.png": "/images/author-94de9dae.png",
+  "images/favicon.ico": "/images/favicon-338abbb5.ico",
+  "images/review-img-1.png": "/images/review-img-1-5aafc809.png",
+  "images/review-img-2.png": "/images/review-img-2-7fba1adc.png",
+  "images/review-img-3.png": "/images/review-img-3-a2842ea5.png",
+  "images/send.svg": "/images/send-382f1e7d.svg",
+  "images/user.png": "/images/user-2bc4a21f.png",
+  "index.pug": "/index.html"
+}
