@@ -8,8 +8,8 @@
     <meta name="description" content="">
     <link rel="shortcut icon" href="./images/favicon-338abbb5.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="./images/apple-touch-icon-2805113e.png" type="image/png">
-    <link rel="stylesheet" href="css/vendors.css?172a3ed21e8">
-    <link rel="stylesheet" href="css/app.css?172a3ed21e8">
+    <link rel="stylesheet" href="css/vendors.css?172dc79339d">
+    <link rel="stylesheet" href="css/app.css?172dc79339d">
 </head>
 <body>
     <div class="wrapper">
@@ -21,6 +21,11 @@
                             <div class="header__hover">
                                 <div class="header__dropdown">
                                     <div class="header__block"></div>
+                                    <div class="header__dropdown-triangle">
+                                        <svg width="26" height="15">
+                                            <polyline points=" 2,13 13,2 24,13" stroke="#CDD3DB" stroke-width="1" fill="white" stroke-linejoin="round"></polyline>
+                                        </svg>
+                                    </div>
                                     <div class="dropdown">
                                         <div class="dropdown__item">
                                             <div class="project">
@@ -386,6 +391,11 @@
                         <div class="user__avatar"><img src="./images/user-aef74ada.png" alt="">
                             <div class="user__hover">
                                 <div class="user__dropdown">
+                                    <div class="user__dropdown--triangle">
+                                        <svg width="26" height="15">
+                                            <polyline points=" 2,13 13,2 24,13" stroke="#CDD3DB" stroke-width="1" fill="white" stroke-linejoin="round"></polyline>
+                                        </svg>
+                                    </div>
                                     <div class="dropdown">
                                         <div class="dropdown__item"><a class="user__link" href="/">Профиль</a></div>
                                         <div class="dropdown__item"><a class="user__link" href="/">Статистика</a></div>
@@ -844,7 +854,7 @@
                             <aside class="section__aside">
                                 <div class="filter">
                                     <div class="filter__item">
-                                        <div class="filter__info"><span class="filter__title">Сортировать по :</span><span class="filter__property">дате</span></div>
+                                        <div class="filter__info"><span class="filter__title">Сортировать:</span><span class="filter__property">по дате</span></div>
                                         <div class="filter__order"><img src="./images/sort-cc3d255c.svg" alt=""></div>
                                     </div>
                                     <div class="filter__selects">
@@ -982,7 +992,7 @@
                                         <textarea class="form__textarea" name="" placeholder="Напишите ваш отзыв..." rows="5"></textarea>
                                         <div class="form__item">
                                             <div class="form__file-component">
-                                                <label class="file-label" for="upload-file">
+                                                <label class="file-label" for="upload-file" id="file-loader">
                                                     <div class="file-label__button"><img src="./images/staple-dbc6cec6.svg" alt=""></div>
                                                     <div class="file-label__text"><span class="file-label__title">Прикрепить файлы</span><span class="file-label__requires">Jpg, png, gif, mp4 не более 15 Мб</span></div>
                                                     <input class="file-upload" type="file" id="upload-file" multiple accept=".png, ,jpg, .mp4, .gif">
@@ -1010,6 +1020,6 @@
             </main>
         </div>
     </div>
-    <script src="js/vendors.js?172a3ed21e8"></script>
-    <script src="js/app.js?172a3ed21e8"></script>
+    <script src="js/vendors.js?172dc79339d"></script>
+    <script src="js/app.js?172dc79339d"></script>
 </body>
